@@ -1,5 +1,3 @@
-
-
 import streamlit as st
 import io
 from reportlab.lib.pagesizes import letter
