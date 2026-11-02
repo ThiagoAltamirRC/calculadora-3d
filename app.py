@@ -6,7 +6,7 @@ from reportlab.lib.styles import getSampleStyleSheet, ParagraphStyle
 from reportlab.lib import colors
 
 # Configuração da página para dispositivos móveis
-st.set_page_config(page_title="Calculadora Impressão 3D", page_icon="🖨️", layout="centered")
+st.set_page_config(page_title="Calculadora Impressão 3D - Altamirab", page_icon="👨‍💻", layout="centered")
 
 st.title("Calculadora de Custo e Lucro 3D - AltamirLab  👨‍💻")
 st.write("Preencha os dados abaixo para calcular o custo real e o lucro da sua peça.")
