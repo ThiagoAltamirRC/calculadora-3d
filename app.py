@@ -8,7 +8,7 @@ from reportlab.lib import colors
 # Configuração da página para dispositivos móveis
 st.set_page_config(page_title="Calculadora Impressão 3D - AltamirLab", page_icon="👨‍💻", layout="centered")
 
-st.title("🖨️ Calculadora Profissional 3D - AltamirLab 👨‍💻")
+st.title("Calculadora Profissional 3D - AltamirLab 👨‍💻")
 st.write("Estrutura baseada em custos reais de manufatura aditiva comercial.")
 
 # --- SEÇÃO 1: CONFIGURAÇÕES FIXAS (Valores Padrão Profissionais) ---
