@@ -17,9 +17,9 @@ with st.sidebar:
     st.write("Ajuste estes valores se os seus custos mudarem.")
     
     preco_filamento_kg = st.number_input("Preço do PETG (por Kg - R$)", value=110.00, step=5.0)
-    tarifa_energia_kwh = st.number_input("Tarifa de Energia (kWh - R$)", value=0.85, step=0.05)
-    consumo_impressora_kw = st.number_input("Consumo da Kobra (em kW)", value=0.15, step=0.01)
-    valor_impressora = st.number_input("Valor da Máquina + Ace Pro (R$)", value=2800.00, step=100.0)
+    tarifa_energia_kwh = st.number_input("Tarifa de Energia (kWh - R$)", value=0.96, step=0.05)
+    consumo_impressora_kw = st.number_input("Consumo da Kobra (em kW)", value=0.35, step=0.01)
+    valor_impressora = st.number_input("Valor da Máquina + Ace Pro (R$)", value=3000, step=100.0)
     vida_util_horas = st.number_input("Vida Útil da Máquina (Horas)", value=5000, step=500)
     valor_hora_trabalho = st.number_input("Sua Hora de Trabalho (R$)", value=20.00, step=1.0)
     taxa_falha_porcentagem = st.slider("Margem para Falhas/Insumos (%)", min_value=0, max_value=50, value=15)
