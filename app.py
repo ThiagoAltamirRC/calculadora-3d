@@ -85,7 +85,7 @@ def gerar_pdf_comercial():
     text_style = ParagraphStyle('TextStyle', parent=styles['Normal'], fontSize=11, leading=16)
     bold_style = ParagraphStyle('BoldStyle', parent=styles['Normal'], fontSize=12, leading=16)
     
-    story.append(Paragraph("📄 ORÇAMENTO DE MANUFATURA ADITIVA", title_style))
+    story.append(Paragraph("📄 ORÇAMENTO AltamirLab", title_style))
     story.append(Paragraph("Documento técnico de validação comercial para fornecimento de peças.", subtitle_style))
     story.append(Spacer(1, 10))
     
